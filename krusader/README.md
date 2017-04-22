@@ -1,4 +1,4 @@
-# Krusader Dockerfile 
+# Krusader Dockerfile with X11 forward
 
 This Docker will create an image with Krusader Filebrowser installed.
 If you configure it right you´ll end up with Krusader running on your Desktop with X11 forward.
