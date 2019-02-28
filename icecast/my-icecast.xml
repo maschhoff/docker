@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Icecast</Name>
+  <Repository>infiniteproject/icecast</Repository>
+  <Registry>https://hub.docker.com/r/infiniteproject/icecast/</Registry>
+  <Network>br0</Network>
+  <MyIP></MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/maschhoff/docker/tree/master/icecast</Project>
+  <Overview>Icecast for Mopidy http stream&#xD;
+&#xD;
+setup mopidy audio docker:&#xD;
+mopidy.conf&#xD;
+&#xD;
+[audio]&#xD;
+output = lamemp3enc ! shout2send async=false mount=mopidy ip=XX.XX.XX.XX port=8000 password=hackme&#xD;
+&#xD;
+NOTE: Please download the icecast.xml and void.mp3 from https://github.com/maschhoff/docker/tree/master/icecast&#xD;
+change username and password etc. there</Overview>
+  <Category>Other: MediaServer:Music Status:Stable</Category>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
+  <TemplateURL/>
+  <Icon>http://www.mu-podcast.com/images/icecast_logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1551337782</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>Icecast for Mopidy http stream&#xD;
+&#xD;
+setup mopidy audio docker:&#xD;
+mopidy.conf&#xD;
+&#xD;
+[audio]&#xD;
+output = lamemp3enc ! shout2send async=false mount=mopidy ip=XX.XX.XX.XX port=8000 password=hackme&#xD;
+&#xD;
+NOTE: Please download the icecast.xml and void.mp3 from https://github.com/maschhoff/docker/tree/master/icecast&#xD;
+change username and password etc. there</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/icecast/icecast.xml</HostDir>
+      <ContainerDir>/etc/icecast.xml</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/icecast/void.mp3</HostDir>
+      <ContainerDir>/usr/share/icecast/web/void.mp3</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Host Path 1" Target="/etc/icecast.xml" Default="" Mode="rw" Description="Container Path: /etc/icecast.xml" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/icecast/icecast.xml</Config>
+  <Config Name="Host Path 2" Target="/usr/share/icecast/web/void.mp3" Default="" Mode="rw" Description="Container Path: /void.mp3" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/icecast/void.mp3</Config>
+</Container>
