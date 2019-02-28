@@ -1,0 +1,20 @@
+{
+  "port": 80,
+  "noAuth": false,
+  "baseURL": "/",
+  "address": "",
+  "alternativeReCaptcha": false,
+  "reCaptchaKey": "",
+  "reCaptchaSecret": "",
+  "database": "/db/database.db",
+  "log": "stdout",
+  "plugin": "",
+  "scope": "/srv",
+  "allowCommands": true,
+  "allowEdit": true,
+  "allowNew": true,
+  "commands": [
+    "git",
+    "svn"
+  ]
+}
