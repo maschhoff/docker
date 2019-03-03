@@ -23,7 +23,7 @@ https://docs.filebrowser.xyz/configuration for the config</Overview>
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]/files/</WebUI>
   <TemplateURL/>
-  <Icon>https://filebrowser.github.io/assets/images/favicon.png</Icon>
+  <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
   <ExtraParams></ExtraParams>
   <PostArgs>-c /db/filebrowser.json -d /db/database.db -s /srv</PostArgs>
   <CPUset/>
