@@ -25,7 +25,7 @@ https://docs.filebrowser.xyz/configuration for the config</Overview>
   <TemplateURL/>
   <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
   <ExtraParams></ExtraParams>
-  <PostArgs>-c /db/filebrowser.json</PostArgs>
+  <PostArgs>-d /db/database.db</PostArgs>
   <CPUset/>
   <DateInstalled>1551348361</DateInstalled>
   <DonateText/>
