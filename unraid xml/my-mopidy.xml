@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/78479-support-knex666-mopidy/</Support>
   <Project>https://github.com/maschhoff/docker/tree/master/mopidy</Project>
   <Overview>Mopidy is an extensible music server written in Python.&#xD;
 Mopidy plays music from local disk, Spotify, SoundCloud, Google Play Music, and more. You edit the playlist from any phone, tablet, or computer using a range of MPD and web clients.&#xD;
