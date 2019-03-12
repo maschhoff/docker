@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/78480-support-knex666-icecast/</Support>
   <Project>https://github.com/maschhoff/docker/tree/master/icecast</Project>
   <Overview>Icecast for Mopidy http stream&#xD;
 &#xD;
