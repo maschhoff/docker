@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/78482-support-knex666-openhab/</Support>
   <Project>https://github.com/maschhoff/docker/tree/master/openhab</Project>
   <Overview>openHAB - a vendor and technology agnostic open source automation software for your home.&#xD;
 &#xD;
