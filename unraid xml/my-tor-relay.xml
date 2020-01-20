@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Tor-Relay</Name>
+  <Repository>chriswayg/tor-server</Repository>
+  <Registry/>
+  <Network>br0</Network>
+  <MyIP></MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/maschhoff/docker/tree/master/tor-relay</Project>
+  <Overview>A complete, efficient and secure Tor relay server Docker image</Overview>
+  <Category>Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://clipartart.com/images/tor-browser-icon-clipart-9.png</Icon>
+  <ExtraParams>--init --restart=always </ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1579536032</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This docker image will install the latest current stable version of Tor server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
+
+It includes the latest Tor Debian package from torproject.org which is installed and configured according the Tor project recommendations. Additionally it can be run as a hidden bridge using obfs4proy as well as meek.
+
+The Tor network relies on volunteers to donate bandwidth. The more people who run relays, the faster the Tor network will be. If you have at least 2 megabits/s for both upload and download, please help out Tor by configuring your server to be a Tor relay too.
+
+https://github.com/chriswayg/tor-server</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish>
+      <Port>
+        <HostPort>9030</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>9001</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/tor-data/data/</HostDir>
+      <ContainerDir>/var/lib/tor</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/etc/localtime</HostDir>
+      <ContainerDir>/etc/localtime</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/tor-data/config/</HostDir>
+      <ContainerDir>/etc/tor/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>myRelay</Value>
+      <Name>TOR_NICKNAME</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>email@example.com</Value>
+      <Name>CONTACT_EMAIL</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="/var/lib/tor" Target="/var/lib/tor" Default="" Mode="rw" Description="Container Path: /home/tor/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tor-data/data/</Config>
+  <Config Name="9030" Target="" Default="9030" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">9030</Config>
+  <Config Name="9001" Target="" Default="9001" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">9001</Config>
+  <Config Name="/etc/localtime" Target="/etc/localtime" Default="" Mode="rw" Description="Container Path: /etc/localtime" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
+  <Config Name="TOR_NICKNAME" Target="TOR_NICKNAME" Default="" Mode="" Description="Container Variable: NICKNAME" Type="Variable" Display="always" Required="false" Mask="false">myRelay</Config>
+  <Config Name="CONTACT_EMAIL" Target="CONTACT_EMAIL" Default="" Mode="" Description="Container Variable: CONTACTINFO" Type="Variable" Display="always" Required="false" Mask="false">email@example.com</Config>
+  <Config Name="/etc/tor/" Target="/etc/tor/" Default="" Mode="rw" Description="Container Path: /etc/tor/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tor-data/config/</Config>
+</Container>
