@@ -30,7 +30,7 @@ INSTALLATION:
 Create a folder appdata/tor-data
 Creata subfolders config and data
 Download sample Config: https://github.com/maschhoff/docker/tree/master/tor-relay
-Edit the config
+Edit the config at least NICKNAME and CONTACTINFO in the config file
 Put this into the config folder.
 Edit the docker parameters and run it.
      
