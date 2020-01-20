@@ -26,6 +26,14 @@ It includes the latest Tor Debian package from torproject.org which is installed
 
 The Tor network relies on volunteers to donate bandwidth. The more people who run relays, the faster the Tor network will be. If you have at least 2 megabits/s for both upload and download, please help out Tor by configuring your server to be a Tor relay too.
 
+INSTALLATION:
+Create a folder appdata/tor-data
+Creata subfolders config and data
+Download sample Config: https://github.com/maschhoff/docker/tree/master/tor-relay
+Edit the config
+Put this into the config folder.
+Edit the docker parameters and run it.
+     
 https://github.com/chriswayg/tor-server</Description>
   <Networking>
     <Mode>br0</Mode>
