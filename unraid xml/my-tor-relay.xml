@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Tor-Relay</Name>
+  <Name>tor-relay</Name>
   <Repository>chriswayg/tor-server</Repository>
   <Registry/>
   <Network>br0</Network>
@@ -14,21 +14,20 @@
   <WebUI/>
   <TemplateURL/>
   <Icon>https://clipartart.com/images/tor-browser-icon-clipart-9.png</Icon>
-  <ExtraParams>--init --restart=always </ExtraParams>
+  <ExtraParams>--init</ExtraParams>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1579536032</DateInstalled>
+  <DateInstalled>1579551228</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>This docker image will install the latest current stable version of Tor server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
+<Description>This docker image will install the latest current stable version of Tor server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
 
 It includes the latest Tor Debian package from torproject.org which is installed and configured according the Tor project recommendations. Additionally it can be run as a hidden bridge using obfs4proy as well as meek.
 
 The Tor network relies on volunteers to donate bandwidth. The more people who run relays, the faster the Tor network will be. If you have at least 2 megabits/s for both upload and download, please help out Tor by configuring your server to be a Tor relay too.
 
 INSTALLATION:
-Create a folder appdata/tor-data
-Creata subfolders config and data
+Create a folder appdata/tor-data/config
 Download sample Config: https://github.com/maschhoff/docker/tree/master/tor-relay
 Edit the config at least NICKNAME and CONTACTINFO in the config file
 Put this into the config folder.
@@ -52,11 +51,6 @@ https://github.com/chriswayg/tor-server</Description>
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/tor-data/data/</HostDir>
-      <ContainerDir>/var/lib/tor</ContainerDir>
-      <Mode>rw</Mode>
-    </Volume>
-    <Volume>
       <HostDir>/etc/localtime</HostDir>
       <ContainerDir>/etc/localtime</ContainerDir>
       <Mode>rw</Mode>
@@ -64,7 +58,7 @@ https://github.com/chriswayg/tor-server</Description>
     <Volume>
       <HostDir>/mnt/user/appdata/tor-data/config/</HostDir>
       <ContainerDir>/etc/tor/</ContainerDir>
-      <Mode>rw</Mode>
+      <Mode>ro</Mode>
     </Volume>
   </Data>
   <Environment>
@@ -74,17 +68,16 @@ https://github.com/chriswayg/tor-server</Description>
       <Mode/>
     </Variable>
     <Variable>
-      <Value>email@example.com</Value>
+      <Value>mail@domain.com</Value>
       <Name>CONTACT_EMAIL</Name>
       <Mode/>
     </Variable>
   </Environment>
   <Labels/>
-  <Config Name="/var/lib/tor" Target="/var/lib/tor" Default="" Mode="rw" Description="Container Path: /home/tor/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tor-data/data/</Config>
   <Config Name="9030" Target="" Default="9030" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">9030</Config>
   <Config Name="9001" Target="" Default="9001" Mode="tcp" Description="Container Port: " Type="Port" Display="always" Required="false" Mask="false">9001</Config>
   <Config Name="/etc/localtime" Target="/etc/localtime" Default="" Mode="rw" Description="Container Path: /etc/localtime" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
   <Config Name="TOR_NICKNAME" Target="TOR_NICKNAME" Default="" Mode="" Description="Container Variable: NICKNAME" Type="Variable" Display="always" Required="false" Mask="false">myRelay</Config>
-  <Config Name="CONTACT_EMAIL" Target="CONTACT_EMAIL" Default="" Mode="" Description="Container Variable: CONTACTINFO" Type="Variable" Display="always" Required="false" Mask="false">email@example.com</Config>
-  <Config Name="/etc/tor/" Target="/etc/tor/" Default="" Mode="rw" Description="Container Path: /etc/tor/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tor-data/config/</Config>
+  <Config Name="CONTACT_EMAIL" Target="CONTACT_EMAIL" Default="" Mode="" Description="Container Variable: CONTACTINFO" Type="Variable" Display="always" Required="false" Mask="false">mail@domain.com</Config>
+  <Config Name="/etc/tor/" Target="/etc/tor/" Default="" Mode="ro" Description="Container Path: /etc/tor/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/tor-data/config/</Config>
 </Container>
