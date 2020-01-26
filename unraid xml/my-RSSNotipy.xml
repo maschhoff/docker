@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RSSNotipy</Name>
+  <Repository>knex666/rssnotipy</Repository>
+  <Registry>https://hub.docker.com/repository/docker/knex666/rssnotipy</Registry>
+  <Network>br0</Network>
+  <MyIP>192.168.100.55</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/maschhoff/RSSNotipy</Project>
+  <Overview>RSS search an notification</Overview>
+  <Category/>
+  <WebUI>http://[IP]:3247/</WebUI>
+  <TemplateURL/>
+  <Icon>https://image.flaticon.com/icons/png/512/25/25367.png</Icon>
+  <ExtraParams/>
+  <PostArgs>/start.sh</PostArgs>
+  <CPUset/>
+  <DateInstalled>1580053315</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>RSS search an notification</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3247</HostPort>
+        <ContainerPort/>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/rssnotipy</HostDir>
+      <ContainerDir>/RSSNotipy/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="data" Target="/RSSNotipy/data" Default="" Mode="rw" Description="Container Path: /RSSNotipy/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rssnotipy</Config>
+  <Config Name="3247" Target="" Default="3247" Mode="tcp" Description="Container Port: 3247" Type="Port" Display="always" Required="false" Mask="false">3247</Config>
+</Container>
