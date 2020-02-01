@@ -9,7 +9,6 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/docker/tree/master/tor-relay</Project>
-  <Overview>A complete, efficient and secure Tor relay server Docker image</Overview>
   <Category>Network:Other</Category>
   <WebUI/>
   <TemplateURL/>
