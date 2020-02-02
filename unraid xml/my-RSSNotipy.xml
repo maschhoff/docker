@@ -20,7 +20,7 @@
   <DateInstalled>1580053315</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>RSS search an notification. Just seach for upcoming movies on Release Sources and Forum RSS Feeds.</Description>
+  <Description>RSS search an notification. Just seach for upcoming movies on Release Sources and Forum RSS Feeds and get notified via pushbullet, pushover or openhab</Description>
   <Networking>
     <Mode>br0</Mode>
     <Publish>
