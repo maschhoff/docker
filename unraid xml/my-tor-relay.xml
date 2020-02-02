@@ -9,18 +9,8 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/docker/tree/master/tor-relay</Project>
-  <Overview>A complete, efficient and secure Tor relay server Docker image</Overview>
-  <Category>Network:Other</Category>
-  <WebUI/>
-  <TemplateURL/>
-  <Icon>https://clipartart.com/images/tor-browser-icon-clipart-9.png</Icon>
-  <ExtraParams>--init</ExtraParams>
-  <PostArgs/>
-  <CPUset/>
-  <DateInstalled>1579551228</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
-<Description>This docker image will install the latest current stable version of Tor server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
+  <Overview>
+  This docker image will install the latest current stable version of Tor server. It will run Tor as an unprivileged regular user, as recommended by torproject.org.
 
 It includes the latest Tor Debian package from torproject.org which is installed and configured according the Tor project recommendations. Additionally it can be run as a hidden bridge using obfs4proy as well as meek.
 
@@ -33,7 +23,20 @@ Edit the config at least NICKNAME and CONTACTINFO in the config file
 Put this into the config folder.
 Edit the docker parameters and run it.
      
-https://github.com/chriswayg/tor-server</Description>
+https://github.com/chriswayg/tor-server
+  
+  </Overview>
+  <Category>Network:Other</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://clipartart.com/images/tor-browser-icon-clipart-9.png</Icon>
+  <ExtraParams>--init</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1579551228</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+<Description>A complete, efficient and secure Tor relay server Docker image </Description>
   <Networking>
     <Mode>br0</Mode>
     <Publish>
