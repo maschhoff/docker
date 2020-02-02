@@ -9,7 +9,30 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/RSSNotipy</Project>
-  <Overview>RSS search an notification</Overview>
+  <Overview>RSS search an notification.
+  
+  Please Read
+  
+  
+
+  Please read all information on GitHub
+    
+    https://github.com/maschhoff/RSSNotipy
+
+Please use the sample configuration and files on the GitHub Repo (https://github.com/maschhoff/RSSNotipy/tree/master/data)  and copy it to /mnt/user/appdata/rssnotipy/
+
+ 
+
+You have to edit the configuration for your purpose. RSS release sources to search for and upcoming movies from your rss source. And optionally the Api Key of your prefered push service
+
+Please use it for good reasons. I´ve seen people using the RSS Feed from xREL and underground forum as release source. Please support the movie industrie.
+
+ 
+
+For any question - dont mind to ask! The Project is still under development.
+  
+  
+  </Overview>
   <Category/>
   <WebUI>http://[IP]:3247/</WebUI>
   <TemplateURL/>
