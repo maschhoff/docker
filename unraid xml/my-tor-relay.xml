@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>tor-relay</Name>
-  <Repository>chriswayg/tor-server</Repository>
+  <Repository>doudou34/tor-server</Repository>
   <Registry/>
   <Network>br0</Network>
   <MyIP></MyIP>
