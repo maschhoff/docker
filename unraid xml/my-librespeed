@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>LibreSpeed</Name>
+  <Repository>adolfintel/speedtest</Repository>
+  <Registry>https://hub.docker.com/r/adolfintel/speedtest/</Registry>
+  <Network>br0</Network>
+  <MyIP>192.168.100.92</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/librespeed/speedtest</Project>
+  <Overview>This is a very lightweight Speedtest. You can run it locally between you server and your clients.</Overview>
+  <Category>Network:Other</Category>
+  <WebUI>http://[IP]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://i.ibb.co/QYMndYK/logo3.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1581236061</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This is a very lightweight Speedtest. You can run it locally between you server and your clients.</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+</Container>
