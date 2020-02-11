@@ -9,7 +9,10 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project/>
-  <Overview/>
+  <Overview>Nextcloud based on the official docker hub image.
+  Nextcloud 18.0.1RC1 with full ONLYOFFICE integration.
+  Based on Apache.
+  </Overview>
   <Category/>
   <WebUI>http://[IP]</WebUI>
   <TemplateURL/>
