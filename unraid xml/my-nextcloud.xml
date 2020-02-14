@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Nextcloud</Name>
-  <Repository>nextcloud:18.0.1RC2-apache</Repository>
+  <Repository>nextcloud:18.0.1-apache</Repository>
   <Registry/>
   <Network>br0</Network>
   <MyIP></MyIP>
@@ -10,7 +10,7 @@
   <Support/>
   <Project/>
   <Overview>Nextcloud based on the official docker hub image.
-  Nextcloud 18.0.1RC2 with full ONLYOFFICE integration.
+  Nextcloud 18.0.1 with full ONLYOFFICE integration.
   Based on Apache.
   </Overview>
   <Category/>
