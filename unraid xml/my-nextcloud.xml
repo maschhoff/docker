@@ -8,12 +8,12 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://nextcloud.com/</Project>
   <Overview>Nextcloud based on the official docker hub image.
   Nextcloud 18.0.1 with full ONLYOFFICE integration.
   Based on Apache.
   </Overview>
-  <Category/>
+  <Category>Cloud: Status:Stable</Category>
   <WebUI>http://[IP]</WebUI>
   <TemplateURL/>
   <Icon>https://decatec.de/wp-content/uploads/2017/08/nextcloud_logo.png</Icon>
