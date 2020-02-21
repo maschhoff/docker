@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/88699-support-knex666-openproject/</Support>
   <Project>http://openproject.org</Project>
   <Overview>OpenProject is a web-based project management system for location-independent team collaboration.</Overview>
   <Category>Productivity:</Category>
