@@ -7,7 +7,7 @@
   <MyIP>192.168.100.55</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/87901-support-knex666-rssnotipy</Support>
   <Project>https://github.com/maschhoff/RSSNotipy</Project>
   <Overview>RSS search an notification.
   
