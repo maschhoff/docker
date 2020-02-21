@@ -7,7 +7,7 @@
   <MyIP>192.168.100.92</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/88503-support-knex666-librespeed</Support>
   <Project>https://github.com/librespeed/speedtest</Project>
   <Overview>This is a very lightweight Speedtest. You can run it locally between you server and your clients.</Overview>
   <Category>Network:Other</Category>
