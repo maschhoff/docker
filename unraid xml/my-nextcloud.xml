@@ -7,7 +7,7 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/88504-support-knex666-nextcloud-18/</Support>
   <Project>https://nextcloud.com/</Project>
   <Overview>Nextcloud based on the official docker hub image.
   Nextcloud 18.0.1 with full ONLYOFFICE integration.
