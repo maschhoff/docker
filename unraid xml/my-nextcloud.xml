@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>Nextcloud</Name>
-  <Repository>nextcloud:18.0.1-apache</Repository>
+  <Repository>nextcloud:18.0.2-apache</Repository>
   <Registry/>
   <Network>br0</Network>
   <MyIP></MyIP>
