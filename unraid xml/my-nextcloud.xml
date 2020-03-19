@@ -10,7 +10,7 @@
   <Support>https://forums.unraid.net/topic/88504-support-knex666-nextcloud-18/</Support>
   <Project>https://nextcloud.com/</Project>
   <Overview>Nextcloud based on the official docker hub image.
-  Nextcloud 18.0.1 with full ONLYOFFICE integration.
+  Nextcloud 18.0.2 with full ONLYOFFICE integration.
   Based on Apache.
   </Overview>
   <Category>Cloud: Status:Stable</Category>
