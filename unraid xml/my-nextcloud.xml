@@ -18,9 +18,7 @@
   <TemplateURL/>
   <Icon>https://decatec.de/wp-content/uploads/2017/08/nextcloud_logo.png</Icon>
   <ExtraParams>--user 99:100 --sysctl net.ipv4.ip_unprivileged_port_start=0</ExtraParams>
-  <PostArgs>
-    &&  docker exec -u 0 NAME_OF_THIS_CONTAINER /bin/sh -c 'echo "umask 000" >> /etc/apache2/envvars'
-  </PostArgs>
+  <PostArgs>&&  docker exec -u 0 NAME_OF_THIS_CONTAINER /bin/sh -c 'echo "umask 000" >> /etc/apache2/envvars'</PostArgs>
   <CPUset/>
   <DateInstalled>1581342063</DateInstalled>
   <DonateText/>
