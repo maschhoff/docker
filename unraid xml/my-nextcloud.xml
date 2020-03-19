@@ -17,8 +17,8 @@
   <WebUI>http://[IP]</WebUI>
   <TemplateURL/>
   <Icon>https://decatec.de/wp-content/uploads/2017/08/nextcloud_logo.png</Icon>
-  <ExtraParams></ExtraParams>
-  <PostArgs></PostArgs>
+  <ExtraParams/>
+  <PostArgs/>
   <CPUset/>
   <DateInstalled>1581342063</DateInstalled>
   <DonateText/>
