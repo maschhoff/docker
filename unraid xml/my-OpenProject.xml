@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1581836166</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Description>OpenProject is a web-based project management system for location-independent team collaboration.</Description>
   <Networking>
     <Mode>br0</Mode>
