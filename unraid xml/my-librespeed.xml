@@ -18,8 +18,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1581236061</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Description>This is a very lightweight Speedtest. You can run it locally between you server and your clients.</Description>
   <Networking>
     <Mode>br0</Mode>
