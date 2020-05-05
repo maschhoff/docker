@@ -21,8 +21,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1581342063</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Description/>
   <Networking>
     <Mode>br0</Mode>
