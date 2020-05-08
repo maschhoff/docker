@@ -9,9 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://girhub.com/maschhoff/shortipy</Project>
-  <Overview>URL Shortener in python based on flask&#xD;
-&#xD;
-Runs on port 4321 if you use a bridge mode map this port to any of your choice</Overview>
+  <Overview>URL Shortener in python based on flask</Overview>
   <Category>Tools: Network:Management</Category>
   <WebUI>http://[IP]:4321/</WebUI>
   <TemplateURL/>
