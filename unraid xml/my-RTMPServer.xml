@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>RTMPServer</Name>
+  <Repository>alqutami/rtmp-hls</Repository>
+  <Registry>https://hub.docker.com/r/alqutami/rtmp-hls</Registry>
+  <Network>br0</Network>
+  <MyIP></MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/TareqAlqutami/rtmp-hls-server</Project>
+  <Overview>This Docker image can be used to create a video streaming server that supports RTMP, HLS, DASH out of the box. It also allows adaptive streaming and custom transcoding of video streams. All modules are built from source on Debian and Alpine Linux base images.&#xD;
+&#xD;
+Stream live RTMP content to:&#xD;
+rtmp://&amp;lt;server ip&amp;gt;:1935/live/&amp;lt;stream_key&amp;gt;&#xD;
+where &amp;lt;stream_key&amp;gt; is any stream key you specify.&#xD;
+&#xD;
+View:&#xD;
+rtmp://&amp;lt;server ip&amp;gt;:1935/live/&amp;lt;stream-key&amp;gt;&#xD;
+http://&amp;lt;server ip&amp;gt;:8080/hls/&amp;lt;stream-key&amp;gt;.m3u8 &#xD;
+http://&amp;lt;server ip&amp;gt;:8080/dash/&amp;lt;stream-key&amp;gt;_src.mpd</Overview>
+  <Category>GameServers: Network:Other</Category>
+  <WebUI>http://[IP]:8080/stats</WebUI>
+  <TemplateURL/>
+  <Icon>https://intinor.com/wp-content/uploads/2017/01/RTMP.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1590726831</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>This Docker image can be used to create a video streaming server that supports RTMP, HLS, DASH out of the box. It also allows adaptive streaming and custom transcoding of video streams. All modules are built from source on Debian and Alpine Linux base images.&#xD;
+&#xD;
+Stream live RTMP content to:&#xD;
+rtmp://&amp;lt;server ip&amp;gt;:1935/live/&amp;lt;stream_key&amp;gt;&#xD;
+where &amp;lt;stream_key&amp;gt; is any stream key you specify.&#xD;
+&#xD;
+View:&#xD;
+rtmp://&amp;lt;server ip&amp;gt;:1935/live/&amp;lt;stream-key&amp;gt;&#xD;
+http://&amp;lt;server ip&amp;gt;:8080/hls/&amp;lt;stream-key&amp;gt;.m3u8 &#xD;
+http://&amp;lt;server ip&amp;gt;:8080/dash/&amp;lt;stream-key&amp;gt;_src.mpd</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+</Container>
