@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maintainer>
-  <Icon>https://github.com/maschhoff/docker/blob/master/unraid%20xml/avatar.png</Icon>
+  <Icon>https://github.com/maschhoff/docker/raw/master/unraid%20xml/avatar.png</Icon>
   <Profile>Building Unraid-Dockers for my environment and my projects to share them with you. Most about Smart Home or automation and some more fancy stuff</Profile>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <DonateText>If you like my work buy me a Pizza ;)</DonateText>
