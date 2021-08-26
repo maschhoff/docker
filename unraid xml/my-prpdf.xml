@@ -1,15 +1,18 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>PRPDF (beta)</Name>
+  <Description>Preview and Rename scanned PDF Documents</Description>
   <Repository>knex666/prpdf</Repository>
   <Registry/>
   <Network>br0</Network>
   <MyIP>192.168.100.80</MyIP>
   <Shell>sh</Shell>
+  <Beta>True</Beta> 
   <Privileged>false</Privileged>
   <Support/>
-   <Project>https://github.com/maschhoff/prpdf</Project>
-  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
+  <Project>https://github.com/maschhoff/prpdf</Project>
+  <Overview>
+    This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
     Its an open beta that I am testing on. 
     Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf
     Please add a scan source folder 
@@ -24,20 +27,19 @@
   <ExtraParams/>
   <PostArgs>python3 /source/prpdf.py</PostArgs>
   <CPUset/>
-  <DateInstalled></DateInstalled>
-  <Description/>
+  <DateInstalled/>
   <Networking>
     <Mode>br0</Mode>
     <Publish/>
   </Networking>
   <Data>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir>/mnt/user/SHARE</HostDir>
       <ContainerDir>/Archiv/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
     <Volume>
-      <HostDir></HostDir>
+      <HostDir>/mnt/user/SCANS</HostDir>
       <ContainerDir>/source/static/pdf/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
