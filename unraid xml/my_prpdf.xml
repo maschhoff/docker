@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>PRPDF</Name>
+  <Name>PRPDF (beta)</Name>
   <Repository>knex666/prpdf</Repository>
   <Registry/>
   <Network>br0</Network>
@@ -8,8 +8,15 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
-  <Overview/>
+   <Project>https://github.com/maschhoff/prpdf</Project>
+  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
+    Its an open beta that I am testing on. 
+    Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf
+    Please add a scan source folder 
+    and a folder where your files shoud be sorted into the subfolders existing there
+    Any Issus report on github.
+    Thanks
+  </Overview>
   <Category/>
   <WebUI></WebUI>
   <TemplateURL/>
