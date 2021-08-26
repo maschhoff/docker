@@ -10,8 +10,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/prpdf</Project>
-  <Overview>
-    This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
+  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
     Its an open beta that I am testing on. 
     Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf
     Please add a scan source folder 
