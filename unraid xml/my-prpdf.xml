@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>PRPDF (beta)</Name>
-  <Description>Preview and Rename scanned PDF Documents</Description>
   <Repository>knex666/prpdf</Repository>
   <Registry/>
   <Network>br0</Network>
@@ -28,6 +27,7 @@
   <PostArgs>python3 /source/prpdf.py</PostArgs>
   <CPUset/>
   <DateInstalled/>
+  <Description/>
   <Networking>
     <Mode>br0</Mode>
     <Publish/>
