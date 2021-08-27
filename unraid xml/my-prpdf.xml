@@ -6,7 +6,6 @@
   <Network>br0</Network>
   <MyIP>192.168.100.80</MyIP>
   <Shell>sh</Shell>
-  <Beta>True</Beta> 
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/prpdf</Project>
