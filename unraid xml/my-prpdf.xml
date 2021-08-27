@@ -10,15 +10,13 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://github.com/maschhoff/prpdf</Project>
-  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. 
-    Its an open beta that I am testing on. 
-    Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf
-    Please add a scan source folder 
-    and a folder where your files shoud be sorted into the subfolders existing there
-    Any Issus report on github.
-    Thanks
-  </Overview>
-  <Category/>
+  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+ Its an open beta that I am testing on. &#xD;
+ Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf&#xD;
+ Please add a scan source folder &#xD;
+ and a folder where your files shoud be sorted into the subfolders existing there&#xD;
+ Any Issus report on github.</Overview>
+  <Category>Productivity: Tools: Status:Beta</Category>
   <WebUI></WebUI>
   <TemplateURL/>
   <Icon>https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-512.png</Icon>
@@ -26,7 +24,12 @@
   <PostArgs>python3 /source/prpdf.py</PostArgs>
   <CPUset/>
   <DateInstalled/>
-  <Description/>
+  <Description>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+ Its an open beta that I am testing on. &#xD;
+ Please add the configuration file from https://raw.githubusercontent.com/maschhoff/prpdf/main/config/config.json to /mnt/user/appdata/prpdf&#xD;
+ Please add a scan source folder &#xD;
+ and a folder where your files shoud be sorted into the subfolders existing there&#xD;
+ Any Issus report on github.</Description>
   <Networking>
     <Mode>br0</Mode>
     <Publish/>
