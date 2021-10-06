@@ -4,12 +4,12 @@
   <Repository>knex666/prpdf</Repository>
   <Registry/>
   <Network>br0</Network>
-  <MyIP>192.168.100.80</MyIP>
+  <MyIP>192.168.10.80</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/maschhoff/prpdf/issues</Support>
   <Project>https://github.com/maschhoff/prpdf</Project>
-  <Overview>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+  <Overview>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
  Its an open beta that I am testing on. &#xD;
  Please add a scan source folder &#xD;
  and a folder where your files shoud be sorted and archived into the subfolders existing there&#xD;
@@ -22,7 +22,7 @@
   <PostArgs>python3 /source/prpdf.py</PostArgs>
   <CPUset/>
   <DateInstalled/>
-  <Description>This tool is for Preview and Rename scanned PDF Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+  <Description>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
  Its an open beta that I am testing on. &#xD;
  Please add a scan source folder &#xD;
  and a folder where your files shoud be sorted and archived into the subfolders existing there&#xD;
