@@ -7,7 +7,7 @@
   <MyIP>192.168.10.80</MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/maschhoff/prpdf/issues</Support>
+  <Support>https://forums.unraid.net/topic/115451-support-knex666-pr-pdf-explorer/</Support>
   <Project>https://github.com/maschhoff/prpdf</Project>
   <Overview>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
  Its an open beta that I am testing on. &#xD;
