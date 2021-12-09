@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>PRPDF</Name>
   <Repository>knex666/prpdf</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/knex666/prpdf</Registry>
   <Network>br0</Network>
   <MyIP>192.168.10.80</MyIP>
   <Shell>sh</Shell>
