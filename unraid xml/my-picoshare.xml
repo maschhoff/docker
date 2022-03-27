@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://forums.unraid.net/forum/58-docker-engine/</Support>
+  <Project>https://pico.rocks/</Project>
   <Overview>PicoShare is a minimalist service that allows you to share files easily.</Overview>
   <Category/>
   <WebUI/>
