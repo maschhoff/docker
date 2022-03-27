@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>picoshare</Name>
+  <Repository>mtlynch/picoshare</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>PicoShare is a minimalist service that allows you to share files easily.</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://cdn0.iconfinder.com/data/icons/communication-2-5/98/59-512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1648413111</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>PicoShare is a minimalist service that allows you to share files easily.</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3001</HostPort>
+        <ContainerPort>3001</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/picoshare</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>3001</Value>
+      <Name>PORT</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>somesecretpass</Value>
+      <Name>PS_SHARED_SECRET</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="PORT" Target="PORT" Default="" Mode="" Description="Container Variable: PORT" Type="Variable" Display="always" Required="false" Mask="false">3001</Config>
+  <Config Name="PS_SHARED_SECRET" Target="PS_SHARED_SECRET" Default="" Mode="" Description="Container Variable: PS_SHARED_SECRET" Type="Variable" Display="always" Required="false" Mask="false">somesecretpass</Config>
+  <Config Name="data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/picoshare</Config>
+  <Config Name="PORT" Target="3001" Default="" Mode="tcp" Description="Container Port: 3001" Type="Port" Display="always" Required="false" Mask="false">3001</Config>
+</Container>
