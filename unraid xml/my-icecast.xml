@@ -22,7 +22,7 @@ change username and password etc. there</Overview>
   <Category>Other: MediaServer:Music Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:8000]/</WebUI>
   <TemplateURL/>
-  <Icon>http://www.mu-podcast.com/images/icecast_logo.png</Icon>
+  <Icon>https://rockhost.com/wp-content/uploads/2018/11/icecast-server-hosting-cdn.jpg</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
