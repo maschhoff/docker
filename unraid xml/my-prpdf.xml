@@ -50,7 +50,7 @@
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="Files" Target="/Archiv/" Default="" Mode="rw" Description="Archiv Path: /Archiv/" Type="Path" Display="always" Required="false" Mask="false"></Config>
-  <Config Name="Host Path 2" Target="/source/static/pdf/" Default="" Mode="rw" Description="Scan Path: /source/static/pdf/" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Files" Target="/Archiv/" Default="" Mode="rw" Description="Document Repository: /Archiv/" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Host Path 2" Target="/source/static/pdf/" Default="" Mode="rw" Description="Scan Import Path: /source/static/pdf/" Type="Path" Display="always" Required="false" Mask="false"></Config>
   <Config Name="Host Path 4" Target="/source/config" Default="" Mode="rw" Description="Configuration" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/prpdf/</Config>
 </Container>
