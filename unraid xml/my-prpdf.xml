@@ -19,7 +19,7 @@
   <TemplateURL/>
   <Icon>https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-512.png</Icon>
   <ExtraParams/>
-  <PostArgs>python3 /source/prpdf.py</PostArgs>
+  <PostArgs></PostArgs>
   <CPUset/>
   <DateInstalled/>
   <Description>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
