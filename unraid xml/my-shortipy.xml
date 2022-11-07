@@ -15,7 +15,7 @@
   <TemplateURL/>
   <Icon>https://image.flaticon.com/icons/png/512/1828/1828108.png</Icon>
   <ExtraParams/>
-  <PostArgs>/start.sh</PostArgs>
+  <PostArgs></PostArgs>
   <CPUset/>
   <DateInstalled>1588924194</DateInstalled>
   <DonateText>Buy me a Pizza</DonateText>
