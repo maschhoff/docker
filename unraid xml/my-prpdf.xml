@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>PRPDF</Name>
+  <Repository>knex666/prpdf</Repository>
+  <Registry>https://hub.docker.com/r/knex666/prpdf</Registry>
+  <Network>br0</Network>
+  <MyIP>192.168.10.80</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/115451-support-knex666-pr-pdf-explorer/</Support>
+  <Project>https://github.com/maschhoff/prpdf</Project>
+  <Overview>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+ Its an open beta that I am testing on. &#xD;
+ Please add a scan source folder &#xD;
+ and a folder where your files shoud be sorted and archived into the subfolders existing there&#xD;
+ Any Issus report on github.</Overview>
+  <Category>Productivity: Tools: Status:Beta</Category>
+  <WebUI></WebUI>
+  <TemplateURL/>
+  <Icon>https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-512.png</Icon>
+  <ExtraParams/>
+  <PostArgs></PostArgs>
+  <CPUset/>
+  <DateInstalled/>
+  <Description>This tool is for Preview and Rename scanned PDF-Documents. Rulebased autoscan with OCR. Merge etc. &#xD;
+ Its an open beta that I am testing on. &#xD;
+ Please add a scan source folder &#xD;
+ and a folder where your files shoud be sorted and archived into the subfolders existing there&#xD;
+ Any Issus report on github.</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/SHARE</HostDir>
+      <ContainerDir>/Archiv/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/SCANS</HostDir>
+      <ContainerDir>/source/static/pdf/</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/appdata/prpdf/</HostDir>
+      <ContainerDir>/source/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Files" Target="/Archiv/" Default="" Mode="rw" Description="Document Repository: /Archiv/" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Host Path 2" Target="/source/static/pdf/" Default="" Mode="rw" Description="Scan Import Path: /source/static/pdf/" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Host Path 4" Target="/source/config" Default="" Mode="rw" Description="Configuration" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/prpdf/</Config>
+</Container>

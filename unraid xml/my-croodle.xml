@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>croodle</Name>
+  <Repository>knex666/croodle:latest</Repository>
+  <Registry>https://hub.docker.com/r/knex666/croodle</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/jelhan/croodle</Project>
+  <Overview>Croodle is an end-to-end encrypted web application to schedule a date or to do a poll on a any topic. All data like title, description, number and labels of options, available answers and names of users and their selections are encrypted/decrypted in the browser using strong 256-bit AES encryption.</Overview>
+  <Category>Productivity: Status:Beta</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://d1csarkz8obe9u.cloudfront.net/posterpreviews/calendar-clipart-logo-design-template-9a3d7bbcf620587d4b74313072040475_screen.jpg?ts=1611246431</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1664553536</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="data" Target="/var/www/html/data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/croodle/</Config>
+  <Config Name="http" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8385</Config>
+</Container>
