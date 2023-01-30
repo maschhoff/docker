@@ -30,11 +30,11 @@ Runs on port 4321 if you use a bridge mode map this port to any of your choice</
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/shortipy</HostDir>
-      <ContainerDir>/shortipy/data</ContainerDir>
+      <ContainerDir>/source/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="Host Path 1" Target="/shortipy/data" Default="" Mode="rw" Description="Container Path: /shortipy/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/shortipy</Config>
+  <Config Name="Host Path 1" Target="/source/data" Default="" Mode="rw" Description="Container Path: /source/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/shortipy</Config>
 </Container>
