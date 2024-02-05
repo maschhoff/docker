@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Clipy</Name>
+  <Repository>knex666/clipy:latest</Repository>
+  <Registry/>
+<Network>br0</Network>
+  <MyIP></MyIP>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/maschhoff</Support>
+  <Project>https://github.com/maschhoff</Project>
+  <Overview>Simple web-clipboard. Easy copy something to clipboard and use it on another device. Written in python based on flask&#xD;
+&#xD;
+Runs on port 4321 if you use a bridge mode map this port to any of your choice</Overview>
+  <Category>Tools: Status:Beta</Category>
+  <WebUI>http://[IP]:4321/</WebUI>
+  <TemplateURL/>
+  <Icon>https://uxwing.com/wp-content/themes/uxwing/download/file-and-folder-type/copy-link-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1707167130</DateInstalled>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
+  <Requires/>
+  <Config Name="DB" Target="/source/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/clipy</Config>
+</Container>
