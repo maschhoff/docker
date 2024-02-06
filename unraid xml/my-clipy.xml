@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Clipy</Name>
   <Repository>knex666/clipy:latest</Repository>
-  <Registry/>
+  <Registry>https://hub.docker.com/r/knex666/clipy</Registry>
 <Network>br0</Network>
   <MyIP></MyIP>
   <Shell>sh</Shell>
