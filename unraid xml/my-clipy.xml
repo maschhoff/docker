@@ -3,8 +3,8 @@
   <Name>Clipy</Name>
   <Repository>knex666/clipy:latest</Repository>
   <Registry>https://hub.docker.com/r/knex666/clipy</Registry>
-<Network>br0</Network>
-  <MyIP></MyIP>
+  <Network>bridge</Network>
+  <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://github.com/maschhoff</Support>
