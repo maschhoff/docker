@@ -15,7 +15,7 @@
  and a folder where your files shoud be sorted and archived into the subfolders existing there&#xD;
  Any Issus report on github.</Overview>
   <Category>Productivity: Tools: Status:Beta</Category>
-  <WebUI></WebUI>
+  <WebUI>http://[IP]:[PORT:80]/</WebUI>
   <TemplateURL/>
   <Icon>https://cdn2.iconfinder.com/data/icons/adobe-acrobat-pdf/154/adobe-acrobat-pdf-file-document-512.png</Icon>
   <ExtraParams/>
