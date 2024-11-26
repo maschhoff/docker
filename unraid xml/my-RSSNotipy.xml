@@ -38,7 +38,7 @@ For any question - dont mind to ask! The Project is still under development.
   <TemplateURL/>
   <Icon>https://image.flaticon.com/icons/png/512/25/25367.png</Icon>
   <ExtraParams/>
-  <PostArgs>/start.sh</PostArgs>
+  <PostArgs></PostArgs>
   <CPUset/>
   <DateInstalled>1580053315</DateInstalled>
   <DonateText>Please buy me a Pizza</DonateText>
@@ -57,12 +57,12 @@ For any question - dont mind to ask! The Project is still under development.
   <Data>
     <Volume>
       <HostDir>/mnt/user/appdata/rssnotipy</HostDir>
-      <ContainerDir>/RSSNotipy/data</ContainerDir>
+      <ContainerDir>/source/data</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="data" Target="/RSSNotipy/data" Default="" Mode="rw" Description="Container Path: /RSSNotipy/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rssnotipy</Config>
+  <Config Name="data" Target="/source/data" Default="" Mode="rw" Description="Container Path: /source/data" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/rssnotipy</Config>
   <Config Name="3247" Target="3247" Default="3247" Mode="tcp" Description="Container Port: 3247" Type="Port" Display="always" Required="false" Mask="false">3247</Config>
 </Container>
