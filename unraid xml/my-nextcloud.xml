@@ -44,4 +44,8 @@ docker exec --user 99 Nextcloud php occ db:convert-filecache-bigint --no-interac
   <Config Name="Config Files" Target="/var/www/html/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nextcloud/config</Config>
   <Config Name="User Files" Target="/var/www/html/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nextcloud/data</Config>
   <Config Name="WebGUI Port" Target="80" Default="" Mode="tcp" Description="Only use for bridge network" Type="Port" Display="always" Required="false" Mask="false">8666</Config>
+  <Config Name="PHP_MEMORY_LIMIT" Target="PHP_MEMORY_LIMIT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">1G</Config>
+  <Config Name="PHP_UPLOAD_LIMIT" Target="PHP_UPLOAD_LIMIT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">20G</Config>
+  <Config Name="APACHE_BODY_LIMIT" Target="APACHE_BODY_LIMIT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="IP_UPLOAD_LIMIT" Target="IP_UPLOAD_LIMIT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">20G</Config>
 </Container>
