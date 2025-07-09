@@ -6,11 +6,11 @@ User debian-tor
 DataDirectory /var/lib/tor
 
 # Server's public IP Address (usually automatic)
-#Address 10.10.10.10
+#Address 10.10.100.1
 
 # Port to advertise for incoming Tor connections.
 ORPort 9001                  # common ports are 9001, 443
-ORPort [2a02:908:4c1:f560::ad0c]:9001
+ORPort [2b02:918:4c2:f560::ad0c]:9001
 
 # Mirror directory information for others (optional, not used on bridge)
 DirPort 9030                 # common ports are 9030, 80
