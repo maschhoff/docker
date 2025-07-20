@@ -13,19 +13,25 @@
 &#xD;
 https://github.com/filebrowser/filebrowser&#xD;
 &#xD;
-Just Mount other Folder to/srv&#xD;
+Just Mount other Folder to /srv&#xD;
 Example&#xD;
 /mnt/user/Media/ &amp;gt; /srv/Media&#xD;
 /mnt/user/Docs/ &amp;gt; /srv/Docs&#xD;
 &#xD;
-Read&#xD;
-https://docs.filebrowser.xyz/configuration for the config</Overview>
+Updated for v2.33.0:&#xD;
+- Database now lives in /database/filebrowser.db&#xD;
+- Config/settings.json lives in same /database/ folder&#xD;
+- Make sure to chown files to 1000:1000 if needed&#xD;
+&#xD;
+Mounts:&#xD;
+-v /mnt/user/appdata/filebrowser:/database&#xD;
+-v /mnt/user/SHARE:/srv</Overview>
   <Category>Cloud: Network:Web Status:Stable</Category>
   <WebUI>http://[IP]/files/</WebUI>
   <TemplateURL/>
   <Icon>https://github.com/maschhoff/docker/raw/master/filebrowser/35781395.png</Icon>
   <ExtraParams></ExtraParams>
-  <PostArgs>-d /db/database.db</PostArgs>
+  <PostArgs>-d /database/filebrowser.db</PostArgs>
   <CPUset/>
   <DateInstalled>1551348361</DateInstalled>
   <DonateText/>
@@ -34,13 +40,19 @@ https://docs.filebrowser.xyz/configuration for the config</Overview>
 &#xD;
 https://github.com/filebrowser/filebrowser&#xD;
 &#xD;
-Just Mount other Folder to/srv&#xD;
+Just Mount other Folder to /srv&#xD;
 Example&#xD;
 /mnt/user/Media/ &amp;gt; /srv/Media&#xD;
 /mnt/user/Docs/ &amp;gt; /srv/Docs&#xD;
 &#xD;
-Read&#xD;
-https://docs.filebrowser.xyz/configuration for the config</Description>
+Updated for v2.33.0:&#xD;
+- Database now lives in /database/filebrowser.db&#xD;
+- Config/settings.json lives in same /database/ folder&#xD;
+- Make sure to chown files to 1000:1000 if needed&#xD;
+&#xD;
+Mounts:&#xD;
+-v /mnt/user/appdata/filebrowser:/database&#xD;
+-v /mnt/user/SHARE:/srv</Description>
   <Networking>
     <Mode>br0</Mode>
     <Publish/>
@@ -53,12 +65,12 @@ https://docs.filebrowser.xyz/configuration for the config</Description>
     </Volume>
     <Volume>
       <HostDir>/mnt/user/appdata/filebrowser/</HostDir>
-      <ContainerDir>/db/</ContainerDir>
+      <ContainerDir>/database/</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
   <Environment/>
   <Labels/>
   <Config Name="Host Path 1" Target="/srv" Default="" Mode="rw" Description="Container Path: /srv" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/SHARE/</Config>
-  <Config Name="Host Path 2" Target="/db/" Default="" Mode="rw" Description="Container Path: /db/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/filebrowser/</Config>
+  <Config Name="Host Path 2" Target="/database/" Default="" Mode="rw" Description="Container Path: /database/" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/filebrowser/</Config>
 </Container>
