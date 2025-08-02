@@ -6,7 +6,7 @@
   "alternativeReCaptcha": false,
   "reCaptchaKey": "",
   "reCaptchaSecret": "",
-  "database": "/db/database.db",
+  "database": "/database/filebrowser.db",
   "log": "stdout",
   "plugin": "",
   "scope": "/srv",
