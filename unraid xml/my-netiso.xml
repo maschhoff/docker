@@ -7,20 +7,20 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://github.com/tuxuser/netiso-srv/issues</Support>
   <Project>https://github.com/tuxuser/netiso-srv</Project>
   <Overview>Xbox 360 ISO games over a network using Aurora 0.7b&#xD;
 https://consolemods.org/wiki/Xbox_360:Playing_Games_over_Network_(NetISO)</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
-  <TemplateURL/>
+  <TemplateURL>https://github.com/maschhoff/docker/blob/master/unraid%20xml/my-netiso.xml</TemplateURL>
   <Icon>https://logoeps.com/wp-content/uploads/2013/06/xbox-360-games-vector-logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1757418308</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+   <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Requires/>
   <Config Name="PORT" Target="" Default="4323" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4323</Config>
   <Config Name="ISOs" Target="/mnt" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Games</Config>
