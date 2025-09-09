@@ -11,7 +11,7 @@
   <Project>https://github.com/tuxuser/netiso-srv</Project>
   <Overview>Xbox 360 ISO games over a network using Aurora 0.7b&#xD;
 https://consolemods.org/wiki/Xbox_360:Playing_Games_over_Network_(NetISO)</Overview>
-  <Category/>
+  <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://logoeps.com/wp-content/uploads/2013/06/xbox-360-games-vector-logo.png</Icon>
