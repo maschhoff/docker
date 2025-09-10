@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>netiso</Name>
+  <Name>NetISO</Name>
   <Repository>ghcr.io/tuxuser/netiso-srv-rs:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
