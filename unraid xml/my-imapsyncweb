@@ -1,37 +1,22 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>imapsyncweb</Name>
-  <Repository>knex666/imapsyncweb</Repository>
-  <Registry/>
+  <Name>imapsync-web</Name>
+  <Repository>knex666/imapsyncweb:latest</Repository>
+  <Registry>https://hub.docker.com/r/knex666/imapsyncweb</Registry>
   <Network>bridge</Network>
-  <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/maschhoff/imapsyncweb</Support>
+  <Support>https://github.com/maschhoff/imapsyncweb/issues</Support>
   <Project>https://github.com/maschhoff/imapsyncweb</Project>
-  <ReadMe/>
-  <Overview>imapsync Web UI&#13;
-A modern, dark-themed web interface for imapsync &#x2014; the IMAP migration and backup tool.&#13;
-&#13;
-Features&#13;
-Side-by-side server config for source and destination IMAP accounts&#13;
-Toggle switches for SSL/TLS, dry run, delete, subscribe and more&#13;
-Live log streaming with color-coded output (transfers, errors, warnings, folders)&#13;
-Real-time stats: messages transferred, skipped, bytes, errors&#13;
-Command preview showing the exact imapsync command that will run&#13;
-Job history with status tracking&#13;
-Stop running jobs with a click</Overview>
-  <Category>Tools:</Category>
-  <WebUI>http://[IP]:[PORT:5000]</WebUI>
-  <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/maschhoff/imapsyncweb/refs/heads/main/icon.png</Icon>
+  <Overview>A modern, dark-themed web interface for imapsync — the IMAP migration and backup tool.&#xA;&#xA;Features:&#xA;&#xA;- Side-by-side server config for source and destination IMAP accounts&#xA;- Toggle switches for SSL/TLS, dry run, delete, subscribe and more&#xA;- Live log streaming with color-coded output (transfers, errors, warnings, folders)&#xA;- Real-time stats: messages transferred, skipped, bytes, errors&#xA;- Command preview showing the exact imapsync command that will run&#xA;- Job history with status tracking&#xA;- Stop running jobs with a click</Overview>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:5000]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/maschhoff/imapsyncweb/main/imapsync-web.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/maschhoff/imapsyncweb/main/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1774207207</DateInstalled>
-  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateText>Buy me a Pizza 🍕</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
-  <Requires/>
-  <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
-  <TailscaleStateDir/>
+  <Config Name="WebUI Port" Target="5000" Default="5000" Mode="tcp" Description="Port for the imapsync web interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
 </Container>
