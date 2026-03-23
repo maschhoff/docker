@@ -32,5 +32,6 @@ Stop running jobs with a click</Overview>
   <DonateText>Please buy me a Pizza</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Requires/>
+  <Config Name="Port" Target="5000" Default="5000" Mode="tcp" Description="Container Port: 5000" Type="Port" Display="always" Required="false" Mask="false">5000</Config>
   <TailscaleStateDir/>
 </Container>
