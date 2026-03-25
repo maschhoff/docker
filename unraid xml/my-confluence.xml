@@ -7,10 +7,10 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://hub.docker.com/r/atlassian/confluence-server</Support>
   <Project>https://www.atlassian.com/software/confluence</Project>
   <Overview>Official Confluence-Server Docker Image</Overview>
-  <Category/>
+  <Category>Productivity: Status:Stable</Category>
   <WebUI>http://[IP]:8090</WebUI>
   <TemplateURL/>
   <Icon>https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1505148164/confluence.png</Icon>
