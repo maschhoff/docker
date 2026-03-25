@@ -7,13 +7,13 @@
   <MyIP></MyIP>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://hub.docker.com/r/kevineye/snapcast</Support>
   <Project>https://hub.docker.com/r/kevineye/snapcast</Project>
   <Overview>use this Audio option in  mopidy.conf in mopidy docker to use Snapcast:&#xD;
 &#xD;
 [audio]&#xD;
 output = audioresample ! audio/x-raw,rate=48000,channels=2,format=S16LE ! audioconvert ! wavenc ! filesink location=/tmp/snapfifo</Overview>
-  <Category/>
+  <Category>Other: MediaApp:Music MediaServer:Music Status:Stable</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>http://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Player-Audio-icon.png</Icon>
