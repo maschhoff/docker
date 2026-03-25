@@ -16,7 +16,10 @@
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
+  <Description>A modern, dark-themed web interface for imapsync</Description>
   <DonateText>Buy me a Pizza 🍕</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
+  <Environment/>
+  <Labels/>
   <Config Name="WebUI Port" Target="5000" Default="5000" Mode="tcp" Description="Port for the imapsync web interface." Type="Port" Display="always" Required="true" Mask="false">5000</Config>
 </Container>
