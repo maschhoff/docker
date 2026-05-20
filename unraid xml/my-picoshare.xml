@@ -10,7 +10,7 @@
   <Support>https://forums.unraid.net/forum/58-docker-engine/</Support>
   <Project>https://pico.rocks/</Project>
   <Overview>PicoShare is a minimalist service that allows you to share files easily.</Overview>
-  <Category/>
+  <Category>Tools:Utilities</Category>
   <WebUI/>
   <TemplateURL/>
   <Icon>https://cdn0.iconfinder.com/data/icons/communication-2-5/98/59-512.png</Icon>
