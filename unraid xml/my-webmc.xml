@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>webmc</Name>
+  <Repository>knex666/webmc:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/maschhoff/webMC</Support>
+  <Project>https://github.com/maschhoff/webMC</Project>
+  <ReadMe>https://github.com/maschhoff/webMC</ReadMe>
+  <Overview>
+    A simple web-based file manager for managing your files in Midnight Commander style. It provides a user-friendly interface to navigate and manipulate files on your server, making it easier to manage your data without needing to use the command line.
+  </Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:4500]/</WebUI>
+  <TemplateURL>https://github.com/maschhoff/docker/blob/master/unraid%20xml/my-webmc.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/maschhoff/webMC/refs/heads/main/pwa-icon-512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="mount" Target="/mnt/Unraid" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/</Config>
+  <Config Name="Port" Target="4500" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">4500</Config>
+  <Config Name="WEBMC_LEFT" Target="WEBMC_LEFT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/mnt/Unraid</Config>
+  <Config Name="WEBMC_RIGHT" Target="WEBMC_RIGHT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">/mnt/Unraid</Config>
+  <TailscaleStateDir/>
+</Container>
