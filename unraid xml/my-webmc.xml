@@ -11,9 +11,7 @@
   <Support>https://github.com/maschhoff/webMC</Support>
   <Project>https://github.com/maschhoff/webMC</Project>
   <ReadMe>https://github.com/maschhoff/webMC</ReadMe>
-  <Overview>
-    A simple web-based file manager for managing your files in Midnight Commander style. It provides a user-friendly interface to navigate and manipulate files on your server, making it easier to manage your data without needing to use the command line.
-  </Overview>
+  <Overview>A simple web-based file manager for managing your files in Midnight Commander style. It provides a user-friendly interface to navigate and manipulate files on your server, making it easier to manage your data without needing to use the command line.</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:4500]/</WebUI>
   <TemplateURL>https://github.com/maschhoff/docker/blob/master/unraid%20xml/my-webmc.xml</TemplateURL>
