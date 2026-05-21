@@ -11,13 +11,13 @@
   <Overview>A modern, dark-themed web interface for imapsync</Overview>
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:5000]/</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/maschhoff/imapsyncweb/main/imapsync-web.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/maschhoff/docker/refs/heads/master/unraid%20xml/my-imapsyncweb</TemplateURL>
   <Icon>https://raw.githubusercontent.com/maschhoff/imapsyncweb/main/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <Description>A modern, dark-themed web interface for imapsync</Description>
-  <DonateText>Buy me a Pizza 🍕</DonateText>
+  <DonateText>Buy me a Pizza</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Environment/>
   <Labels/>
