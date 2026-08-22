@@ -14,7 +14,7 @@
   <Overview>EasyNotes – ein modernes, markdown-basiertes Notizbuch. WYSIWYG-Editor mit MD-Toggle, OneNote-Import (.zip) inkl. Assets, AI-Integration (DeepSeek/Claude/ChatGPT), Tags, Dark Mode, mehrsprachig (DE/EN). Speichert Notizen als Markdown-Dateien in Ordnern – intuitiv wie OneNote, aber offen und portabel.</Overview>
   <Category>Productivity:Documents:Notebooks</Category>
   <WebUI>http://[IP]:[PORT:3500]/</WebUI>
-  <TemplateURL>https://github.com/maschhoff/docker</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/maschhoff/docker/refs/heads/master/unraid%20xml/my-easynotes.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/maschhoff/docker/refs/heads/master/a58f117b-a381-46bf-b0ba-3569e4c38187.png</Icon>
   <ExtraParams/>
   <PostArgs/>
