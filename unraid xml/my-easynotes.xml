@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>easynotes</Name>
+  <Repository>knex666/easynotes:latest</Repository>
+  <Registry>https://hub.docker.com/r/knex666/easynotes</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/knex666/easynotes</Support>
+  <Project>https://github.com/knex666/easynotes</Project>
+  <ReadMe>https://github.com/knex666/easynotes</ReadMe>
+  <Overview>EasyNotes – ein modernes, markdown-basiertes Notizbuch. WYSIWYG-Editor mit MD-Toggle, OneNote-Import (.zip) inkl. Assets, AI-Integration (DeepSeek/Claude/ChatGPT), Tags, Dark Mode, mehrsprachig (DE/EN). Speichert Notizen als Markdown-Dateien in Ordnern – intuitiv wie OneNote, aber offen und portabel.</Overview>
+  <Category>Productivity:Documents:Notebooks</Category>
+  <WebUI>http://[IP]:[PORT:3500]/</WebUI>
+  <TemplateURL>https://github.com/knex666/easynotes/blob/main/templates/my-easynotes.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/knex666/easynotes/main/public/icon-512.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled></DateInstalled>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/knex666</DonateLink>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config path" Target="/app/data" Default="/mnt/user/appdata/easynotes" Mode="rw" Description="Container-Pfad für persistente Notizen, Imports und Einstellungen. Auf einen Host-Pfad mappen (z. B. /mnt/user/appdata/easynotes)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/easynotes</Config>
+  <Config Name="Port" Target="3500" Default="3500" Mode="tcp" Description="Web-UI-Port von EasyNotes (WebUI auf http://[IP]:[PORT:3500]/)." Type="Port" Display="always" Required="true" Mask="false">3500</Config>
+  <Config Name="PORT" Target="PORT" Default="3500" Mode="" Description="Interner Port, auf dem die App lauscht." Type="Variable" Display="always" Required="false" Mask="false">3500</Config>
+  <Config Name="TZ" Target="TZ" Default="Europe/Berlin" Mode="" Description="Zeitzone." Type="Variable" Display="always" Required="false" Mask="false">Europe/Berlin</Config>
+  <Config Name="OPENAI_API_KEY" Target="OPENAI_API_KEY" Default="" Mode="" Description="Optional: OpenAI-kompatibler API-Schlüssel (kann auch in der App-UI gesetzt werden)." Type="Variable" Display="advanced" Required="false" Mask="true"></Config>
+  <Config Name="AI_BASE_URL" Target="AI_BASE_URL" Default="" Mode="" Description="Optional: Basis-URL für OpenAI-kompatible API." Type="Variable" Display="advanced" Required="false" Mask="false"></Config>
+  <TailscaleStateDir/>
+</Container>
