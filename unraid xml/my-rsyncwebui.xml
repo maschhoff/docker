@@ -7,8 +7,8 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>https://github.com/maschhoff/RsyncWebUi</Support>
+  <Project>https://github.com/maschhoff/RsyncWebUi</Project>
   <Overview>
     RsyncWebUI is a web interface for rsync. Pick one or more sources and a destination from a
     file browser, tick the rsync options you want, save it as a task, and let it repeat on a
