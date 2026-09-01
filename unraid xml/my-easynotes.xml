@@ -22,8 +22,6 @@
   <DateInstalled></DateInstalled>
   <DonateText>Please buy me a Pizza</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
-  <DonateText/>
-  <DonateLink/>
   <Requires/>
   <Config Name="Config path" Target="/app/data" Default="/mnt/user/appdata/easynotes" Mode="rw" Description="Container-Pfad für persistente Notizen, Imports und Einstellungen. Auf einen Host-Pfad mappen (z. B. /mnt/user/appdata/easynotes)." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/easynotes</Config>
   <Config Name="Port" Target="3500" Default="3500" Mode="tcp" Description="Web-UI-Port von EasyNotes (WebUI auf http://[IP]:[PORT:3500]/)." Type="Port" Display="always" Required="true" Mask="false">3500</Config>
