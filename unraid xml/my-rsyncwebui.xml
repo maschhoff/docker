@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>RsyncWebUI</Name>
-  <Repository>rsyncwebui:latest</Repository>
+  <Repository>knex666/rsyncwebui</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
