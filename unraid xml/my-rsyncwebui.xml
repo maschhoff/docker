@@ -25,8 +25,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>0</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Requires/>
 
   <Config Name="WebUI Port"
