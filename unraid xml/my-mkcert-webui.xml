@@ -1,3 +1,4 @@
+```xml
 <?xml version="1.0"?>
 <Container version="2">
   <Name>mkcert-webui</Name>
@@ -19,7 +20,7 @@
   <Support>http://github.com/maschhoff/mkcertwebui</Support>
   <Project>http://github.com/maschhoff/mkcertwebui</Project>
   <ReadMe/>
-  <Overview>Moderne, responsive Weboberfl&#xE4;che f&#xFC;r mkcert: lokale Root-CA installieren und Entwicklungs-Zertifikate f&#xFC;r localhost, LAN-IPs und Domains erstellen &amp;amp; verwalten &#x2013; inkl. mkcert in einem Container.</Overview>
+  <Overview>Modern, responsive web interface for mkcert: install the local Root CA and create &amp;amp; manage development certificates for localhost, LAN IPs, and domains – including mkcert in a container.</Overview>
   <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
@@ -31,12 +32,13 @@
   <DonateText>Please buy me a Pizza</DonateText>
   <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Requires>docker</Requires>
-  <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Description="Web-UI HTTP-Port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="CA-Ordner" Target="/certs/ca" Default="/mnt/user/appdata/mkcert/ca" Mode="rw" Description="Hier speichert mkcert die Root-CA (rootCA.pem + rootCA-key.pem) &#x2013; Volume anlegen!" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mkcert/ca</Config>
-  <Config Name="Zertifikate-Ordner" Target="/certs/certs" Default="/mnt/user/appdata/mkcert/certs" Mode="rw" Description="Hier landen die ausgestellten Zertifikate &#x2013; Volume anlegen!" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mkcert/certs</Config>
-  <Config Name="Zeitzone" Target="TZ" Default="Europe/Berlin" Mode="" Description="Container-Zeitzone" Type="Variable" Display="always" Required="false" Mask="false">Europe/Berlin</Config>
-  <Config Name="HTTPS" Target="false" Default="false" Mode="" Description="Nur relevant, wenn ein Reverse-Proxy TLS &#xFC;bernimmt (dann false = HTTP)" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
-  <Config Name="Auto-Install CA" Target="MKCERT_AUTO_INSTALL_CA" Default="true" Mode="" Description="Root-CA beim Containerstart automatisch im CAROOT anlegen" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
-  <Config Name="Erlaubte Hosts" Target="MKCERT_ALLOWED_HOSTS" Default="" Mode="" Description="Optionale Whitelist (kommagetrennt). Leer = alle Hosts erlaubt." Type="Variable" Display="advanced" Required="false" Mask="false"/>
+  <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Description="Web UI HTTP port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="CA Folder" Target="/certs/ca" Default="/mnt/user/appdata/mkcert/ca" Mode="rw" Description="Stores the mkcert Root CA (rootCA.pem + rootCA-key.pem) – create the volume!" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mkcert/ca</Config>
+  <Config Name="Certificates Folder" Target="/certs/certs" Default="/mnt/user/appdata/mkcert/certs" Mode="rw" Description="Issued certificates are stored here – create the volume!" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mkcert/certs</Config>
+  <Config Name="Timezone" Target="TZ" Default="Europe/Berlin" Mode="" Description="Container timezone" Type="Variable" Display="always" Required="false" Mask="false">Europe/Berlin</Config>
+  <Config Name="HTTPS" Target="false" Default="false" Mode="" Description="Only relevant when a reverse proxy handles TLS (false = HTTP)" Type="Variable" Display="advanced" Required="false" Mask="false">false</Config>
+  <Config Name="Auto-Install CA" Target="MKCERT_AUTO_INSTALL_CA" Default="true" Mode="" Description="Automatically create the Root CA in CAROOT when the container starts" Type="Variable" Display="advanced" Required="false" Mask="false">true</Config>
+  <Config Name="Allowed Hosts" Target="MKCERT_ALLOWED_HOSTS" Default="" Mode="" Description="Optional whitelist (comma-separated). Empty = all hosts are allowed." Type="Variable" Display="advanced" Required="false" Mask="false"/>
   <TailscaleStateDir/>
 </Container>
+```
