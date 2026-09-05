@@ -3,8 +3,16 @@
   <Name>mkcert-webui</Name>
   <Repository>knex666/mkcertwebui:latest</Repository>
   <Registry/>
-  <Network>br0</Network>
-  <MyIP>10.10.10.155</MyIP>
+ <Networking>
+  <Mode>bridge</Mode>
+  <Publish>
+    <Port>
+      <HostPort>8080</HostPort>
+      <ContainerPort>8080</ContainerPort>
+      <Protocol>tcp</Protocol>
+    </Port>
+  </Publish>
+</Networking>
   <MyMAC/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
