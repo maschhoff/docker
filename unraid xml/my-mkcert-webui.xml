@@ -8,8 +8,8 @@
   <MyMAC/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
-  <Project/>
+  <Support>http://github.com/maschhoff/mkcertwebui</Support>
+  <Project>http://github.com/maschhoff/mkcertwebui</Project>
   <ReadMe/>
   <Overview>Moderne, responsive Weboberfl&#xE4;che f&#xFC;r mkcert: lokale Root-CA installieren und Entwicklungs-Zertifikate f&#xFC;r localhost, LAN-IPs und Domains erstellen &amp;amp; verwalten &#x2013; inkl. mkcert in einem Container.</Overview>
   <Category>Tools:</Category>
@@ -20,8 +20,8 @@
   <PostArgs/>
   <CPUset/>
   <DateInstalled>1788591054</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <DonateText>Please buy me a Pizza</DonateText>
+  <DonateLink>https://www.buymeacoffee.com/maschhoff</DonateLink>
   <Requires>docker</Requires>
   <Config Name="Web UI Port" Target="8080" Default="8080" Mode="tcp" Description="Web-UI HTTP-Port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
   <Config Name="CA-Ordner" Target="/certs/ca" Default="/mnt/user/appdata/mkcert/ca" Mode="rw" Description="Hier speichert mkcert die Root-CA (rootCA.pem + rootCA-key.pem) &#x2013; Volume anlegen!" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/mkcert/ca</Config>
