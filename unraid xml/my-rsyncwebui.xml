@@ -12,7 +12,7 @@
   <Overview>
     RsyncWebUI is a web interface for rsync. Pick one or more sources and a destination from a
     file browser, tick the rsync options you want, save it as a task, and let it repeat on a
-    cron schedule. Every run shows a live log with a progress bar and is kept in a history.
+    cron schedule. Every run shows a live log with a progress bar and is kept in a history. 
 
     Note: the container needs read and write access to the shares it backs up. By default
     /mnt/user and /mnt/disks are mounted.
