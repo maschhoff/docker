@@ -15,7 +15,7 @@
     cron schedule. Every run shows a live log with a progress bar and is kept in a history. 
 
     Note: the container needs read and write access to the shares it backs up. By default
-    /mnt/user and /mnt/disks are mounted.
+    /mnt/user, /mnt/cache and /mnt/disks are mounted.
   </Overview>
   <Category>Backup: Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8080]/</WebUI>
@@ -58,6 +58,16 @@
           Display="always"
           Required="true"
           Mask="false">/mnt/user</Config>
+
+  <Config Name="Cache Pool (/mnt/cache)"
+          Target="/mnt/cache"
+          Default="/mnt/cache"
+          Mode="rw"
+          Description="Direct access to the cache pool. Do not mix /mnt/cache and /mnt/user paths of the same share in one task (source and destination could point to the same files)."
+          Type="Path"
+          Display="always"
+          Required="false"
+          Mask="false">/mnt/cache</Config>
 
   <Config Name="Unassigned Devices (/mnt/disks)"
           Target="/mnt/disks"
