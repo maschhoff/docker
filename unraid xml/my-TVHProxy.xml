@@ -1,0 +1,163 @@
+<?xml version="1.0"?>
+
+<Container version="2">
+  <Name>tvhproxy</Name>
+  <Repository>knex666/tvhproxy:latest</Repository>
+  <Registry>https://github.com/maschhoff/TVHProxy</Registry>
+  <Network>br0</Network>
+  <MyIP></MyIP>
+  <MyMAC/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+
+<Support>https://github.com/maschhoff/TVHProxy/issues</Support> <Project>https://github.com/maschhoff/TVHProxy</Project> <ReadMe>https://github.com/maschhoff/TVHProxy/blob/master/README.md</ReadMe> <Overview>
+TVHProxy provides an HTTP proxy for Tvheadend streams and exposes them
+through a simple HTTP interface. It can be used by clients that require
+a direct HTTP stream endpoint instead of communicating directly with
+Tvheadend. </Overview>
+
+<Category>MediaServer:Video Network:Proxy</Category> <WebUI>http://[IP]:[PORT:5004]</WebUI> <TemplateURL/> <Icon>https://freepngimg.com/icon/download/temp_icon/9311-television-color_64x64.ico</Icon>
+
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1790971002</DateInstalled>
+
+<DonateText>Donate to the developer</DonateText> <DonateLink>https://github.com/maschhoff/TVHProxy</DonateLink>
+
+  <Requires/>
+  <TailscaleStateDir/>
+
+<Config
+ Name="TVH URL"
+ Target="TVH_URL"
+ Default=""
+ Mode=""
+ Description="URL of the Tvheadend server, including port 9981."
+ Type="Variable"
+ Display="always"
+ Required="true"
+ Mask="false">http://IP:9981</Config>
+
+<Config
+ Name="TVH Proxy Port"
+ Target="TVH_PROXY_PORT"
+ Default="5004"
+ Mode=""
+ Description="Port on which TVHProxy listens."
+ Type="Variable"
+ Display="always"
+ Required="true"
+ Mask="false">5004</Config>
+
+<Config
+ Name="TVH Profile"
+ Target="TVH_PROFILE"
+ Default="pass"
+ Mode=""
+ Description="Tvheadend streaming profile."
+ Type="Variable"
+ Display="always"
+ Required="true"
+ Mask="false">pass</Config>
+
+<Config
+ Name="TVH User"
+ Target="TVH_USER"
+ Default=""
+ Mode=""
+ Description="Optional Tvheadend username."
+ Type="Variable"
+ Display="always"
+ Required="false"
+ Mask="false"/>
+
+<Config
+ Name="TVH Password"
+ Target="TVH_PASSWORD"
+ Default=""
+ Mode=""
+ Description="Optional Tvheadend password."
+ Type="Variable"
+ Display="always"
+ Required="false"
+ Mask="true"/>
+
+<Config
+ Name="TVH Proxy URL"
+ Target="TVH_PROXY_URL"
+ Default="http://127.0.0.1:5004"
+ Mode=""
+ Description="Internal URL used by TVHProxy."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">http://127.0.0.1:5004</Config>
+
+<Config
+ Name="Device ID"
+ Target="DEVICE_ID"
+ Default="TVHP0001"
+ Mode=""
+ Description="Unique UPnP/device identifier."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">TVHP0001</Config>
+
+<Config
+ Name="TVH Tuner Count"
+ Target="TVH_TUNER_COUNT"
+ Default="1"
+ Mode=""
+ Description="Number of tuners presented by the proxy."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">1</Config>
+
+<Config
+ Name="TVH Weight"
+ Target="TVH_WEIGHT"
+ Default="300"
+ Mode=""
+ Description="TVHProxy tuner/device weight."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">300</Config>
+
+<Config
+ Name="TVH Chunk Size"
+ Target="TVH_CHUNK_SIZE"
+ Default="1048576"
+ Mode=""
+ Description="Streaming chunk size in bytes."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">1048576</Config>
+
+<Config
+ Name="TVH Cache File"
+ Target="TVH_CACHE_FILE"
+ Default="/data/epg.xml"
+ Mode=""
+ Description="Location of the cached EPG XML file inside the container."
+ Type="Variable"
+ Display="advanced"
+ Required="false"
+ Mask="false">/data/epg.xml</Config>
+
+<Config
+ Name="Data"
+ Target="/data/"
+ Default=""
+ Mode="rw"
+ Description="Persistent storage for TVHProxy data and EPG cache."
+ Type="Path"
+ Display="always"
+ Required="true"
+ Mask="false">/mnt/user/appdata/tvhproxy/</Config>
+
+</Container>
